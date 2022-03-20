@@ -1,16 +1,19 @@
 # Introduction
 
+### SOON : Setup Multi-Mint using this repository, explained in video by 'Stractors' https://www.youtube.com/channel/UCf-oH3TIq8xHVtVogrpTm7g
+
 **Prod-ready Responsive UI** which can be easily customized in 5mn.
 
 All Candy Machine V2 functionalities are implemented, auto detected and maintained up-to-date :
 
 - public mint (with countdown when date in future)
 - civic support (gatekeeper)
-- presale/whitelist
+- whitelist
+- presale true / false
 - end date / end number (endSettings)
 - spl-token to mint
 
-![Candy Machine Preview Image](https://i.imgur.com/WWSvkBO.png)
+![Candy Machine Preview Image](https://i.ibb.co/h7L0M3G/repo-bg.png)
 
 ### Supported Wallets
 
@@ -115,12 +118,14 @@ yarn build
 ```
 :root {
   --main-background-color: #343A50;
-  --card-background-color: #51576D;
-  --card-background-lighter-color: #7A7F92;
+  --card-background-color: #804980;
+  --countdown-background-color: #433765;
   --main-text-color:#F7F6F4;
   --title-text-color:#3CBA8B;
 }
 ```
+
+Next to that, make sure to update background image by overwriting your own background PNG file in src/img folder.
 
 ##### 4.2 `public` folder :
 
@@ -132,6 +137,7 @@ yarn build
 Scroll down down to line 380 (`return <main> [...]`) and start to update all titles/menu/text/images/text... as wished in the whole React HTML block.
 
 That's it ! Enjoy your beautiful candy machine :)
+
 
 ##  Available Commands Recap :
 

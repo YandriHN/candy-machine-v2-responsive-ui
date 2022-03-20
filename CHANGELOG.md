@@ -1,3 +1,18 @@
+**14 Mar 2022**
+
+Set previous UI back. Why ?
+Next UI is going to be released with the multi mint feature :]
+
+All candy machine V2 features remain fully supported and up to date.
+
+**11 Mar 2022**
+
+More user-friendly UI.
+
+Fixed presale false :
+- countdown enabled for WL when presale false
+- if discountPrice is null, then mint becomes private to WL.
+
 **03 Mar 2022**
 
 endSettings now properly managed on front end :
