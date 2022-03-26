@@ -70,7 +70,7 @@ const ConnectButton = styled(WalletMultiButton)`
 `;
 
 const NFT = styled(Paper)`
-  height: 400px;
+ 
   width: auto;
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
