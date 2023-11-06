@@ -1,3 +1,24 @@
+**18 Oct 2022**
+
+Merge of last civic upgrades.
+Various code updates.
+
+**30 Jun 2022**
+
+Fixing "Minting failed." error message poping on successful mint.
+
+**31 May 2022**
+
+Updated UI to reflect latest Metaplex Collection updates
+Removed multi mint (not working right now with anti bot detection)
+
+**26 Apr 2022**
+
+Multi-mints feature :
+
+You can now mint multiple NFTs in a single transaction.
+This is V3.00 release.
+
 **14 Mar 2022**
 
 Set previous UI back. Why ?
